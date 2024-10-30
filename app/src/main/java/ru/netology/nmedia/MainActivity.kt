@@ -18,5 +18,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+//        val mainText: TextView = findViewById(R.id.main_text)
+//        mainText.setText(R.string.nmedio)
     }
 }
