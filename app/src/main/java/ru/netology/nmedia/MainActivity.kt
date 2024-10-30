@@ -1,5 +1,6 @@
 package ru.netology.nmedia
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -17,8 +18,5 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val mainText: TextView = findViewById(R.id.main_text)
-        mainText.setText("nmedia")
-
     }
 }
